@@ -52,8 +52,7 @@ const UseForm: React.FC<UseFormProps> = (props: UseFormProps) => {
 
     return React.createElement(props.children, 
         {onChange, onSubmit, values: state, formError}
-        // {values: {name: "testttt"}}
-        );
+    );
 };
 
 UseForm.defaultProps = {
